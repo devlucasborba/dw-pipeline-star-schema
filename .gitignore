@@ -1,0 +1,37 @@
+# Ambientes virtuais
+my_env/
+venv/
+.venv/
+
+# Airflow
+logs/
+config/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# UV
+uv.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testes
+.pytest_cache/
+
+# Linters
+.ruff_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
